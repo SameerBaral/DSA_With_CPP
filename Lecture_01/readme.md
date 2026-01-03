@@ -1,0 +1,3 @@
+Link to Lecture 01 Notes:
+
+https://www.notion.so/Lecture-01-Introduction-to-C-2bca9af81c988026bff5ed8119f997d1
