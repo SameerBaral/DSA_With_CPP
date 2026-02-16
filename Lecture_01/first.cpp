@@ -10,7 +10,10 @@ int main(){
 
     // std::cout<<a;
     // cout<<a;
-    cout<<"Sameer"<<endl;
-    cout<<sizeof(a);
+    // cout<<"Sameer"<<endl;
+    // cout<<sizeof(a);
+
+    // string name = "Sameer Baral";
+    // cout<<name.length();
     return 0;
 }
