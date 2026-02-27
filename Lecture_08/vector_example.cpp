@@ -6,6 +6,7 @@
 using namespace std;
 
 int main(){
+
     vector<int>arr(5);
     arr[0] = 10;
     arr[1] = 20;
@@ -14,7 +15,7 @@ int main(){
     arr[4] = 16;
 
     arr.push_back(90);  //array ke last me ye 90 aa jaega ab
-    arr.push_back(80);  //array ke last me ye 80 aa jaega ab flexible array hai apna size badha leta
+    arr.push_back(80);  //array ke last me ye 80 aa jaega ab flexible array hai apna size badha leta,yha bhale hi 5 size ka array bana ho lekin ye baad me push_back karke array element ko insert kr skta hai
 
     arr.pop_back(); //it can only remove a last element
 

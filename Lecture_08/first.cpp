@@ -9,6 +9,8 @@ using namespace std;
 
 // yha pr function se jo array pass kara aur ye jo receive kar raha hai a[] dono ek hi array ko point kar rahe hai alag alag array nahi banta hai
 
+// array ke pass karne ke saath saath number of size bhi pass karna usme jaroori hota hai , agar ek se jyada array hoga to tab asani rahega na
+
 // yha printValue(arr_address,size of array)
 
 
@@ -34,13 +36,13 @@ int main(){
     // yha pr original array ka same copy hi bheja hai to ab dono same ko refer nahi kar raha hai
     // to ab yha changes refelect nahi hoga ek dusre ka
 
-    int arr[5] = {10,20,11,18,30};
-    int arr2[5];
-    for(int i=0;i<5;i++){
-        arr2[i]=arr[i];
-    }
-    printValue(arr2,5);
-    cout<<arr[0];
+    // int arr[5] = {10,20,11,18,30};
+    // int arr2[5];
+    // for(int i=0;i<5;i++){
+    //     arr2[i]=arr[i];
+    // }
+    // printValue(arr2,5);
+    // cout<<arr[0];
 
     // ------------------------------------
 
@@ -50,3 +52,12 @@ int main(){
 
     return 0;
 }
+
+
+
+
+
+// Practice Question on diffrent websiets:-
+
+// 1) Search in array  (GFG)
+// 2) Reverse the array (strike)
